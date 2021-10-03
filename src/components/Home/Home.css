@@ -1,0 +1,24 @@
+.hero{
+  background-image:linear-gradient(to Right, rgba(0,0,0,0.8), transparent) ,url(../../images//hero-bg.jpg);
+  background-position: 50% 50% 50% 50%;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 53px);
+  background-size: cover;
+}
+.hero h1{
+  background-color: #0a2351;
+  width: fit-content;
+}
+.hero p{
+  letter-spacing: 5px;
+}
+.hero h2{
+  color: #007cd3;
+}
+.btn{
+  background-color: #007cd3;
+  transition: 0.5s ease-in-out background-color;
+}
+.btn:hover{
+  background-color: #0264aa;
+}

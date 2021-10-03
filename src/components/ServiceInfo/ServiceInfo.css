@@ -1,0 +1,25 @@
+.serviceBox{
+  border-bottom: 3px solid #007cd3;
+}
+.info{
+  box-shadow: 20px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.info h2{
+  color: #007cd3;
+}
+.info h1{
+  color: #0a2351;
+}
+.serviceBox .image img{
+  transition: 2s ease-in-out transform;
+}
+.serviceBox:hover .image img{
+  transform: scale(1.2);
+}
+.search-box input{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.search-box input:focus{
+  border: 1px solid #007cd3;
+  color: #007cd3;
+}
