@@ -1,0 +1,11 @@
+.contact{
+  background-image: linear-gradient(rgba(10, 35, 81, 0.9),rgba(10, 35, 81, 0.9)), url(../../images//contact-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right input,
+.right textarea{
+  border: .5px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+}

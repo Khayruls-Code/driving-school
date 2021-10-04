@@ -11,6 +11,8 @@ import Home from "./components/Home/Home";
 import Notfound from "./components/Notfound/Notfound";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -30,10 +32,14 @@ function App() {
           <Route path='/services'>
             <Services />
           </Route>
+          <Route path='/contact'>
+            <Contact />
+          </Route>
           <Route path='*'>
             <Notfound />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

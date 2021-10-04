@@ -1,0 +1,29 @@
+.footer{
+  background-color: #011130;
+}
+.footer .logo p{
+  color: white;
+}
+.social{
+  margin: 15px 0 0;
+}
+.social i{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border:1px solid gray;
+  color: #fff;
+  line-height: 50px;
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out background-color;
+}
+.social i:hover{
+  background-color: #007cd3;
+  border:1px solid transparent;
+}
+.copyRight{
+  background-color: #010713;
+  letter-spacing: 3px;
+}
